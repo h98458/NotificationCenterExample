@@ -1,0 +1,11 @@
+E:\code\NotificationCenterExample\NotificationCenterExample\obj\Debug\NotificationCenterExample.csprojAssemblyReference.cache
+E:\code\NotificationCenterExample\NotificationCenterExample\obj\Debug\NotificationCenterExample.Form1.resources
+E:\code\NotificationCenterExample\NotificationCenterExample\obj\Debug\NotificationCenterExample.Properties.Resources.resources
+E:\code\NotificationCenterExample\NotificationCenterExample\obj\Debug\NotificationCenterExample.csproj.GenerateResource.cache
+E:\code\NotificationCenterExample\NotificationCenterExample\obj\Debug\NotificationCenterExample.csproj.CoreCompileInputs.cache
+E:\code\NotificationCenterExample\NotificationCenterExample\bin\Debug\NotificationCenterExample.exe.config
+E:\code\NotificationCenterExample\NotificationCenterExample\bin\Debug\NotificationCenterExample.exe
+E:\code\NotificationCenterExample\NotificationCenterExample\bin\Debug\NotificationCenterExample.pdb
+E:\code\NotificationCenterExample\NotificationCenterExample\obj\Debug\NotificationCenterExample.Form2.resources
+E:\code\NotificationCenterExample\NotificationCenterExample\obj\Debug\NotificationCenterExample.exe
+E:\code\NotificationCenterExample\NotificationCenterExample\obj\Debug\NotificationCenterExample.pdb
