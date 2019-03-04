@@ -41,6 +41,8 @@ form1接收消息：
         }
         
        发送消息：
+       
        NotificationCenter.GetInstance().postNotificationName(NotificationDefine.LoginSucceedNotification);
+       NotificationCenter.GetInstance().postNotificationName(NotificationDefine.LoginFailNotification);
        
        
