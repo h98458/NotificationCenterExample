@@ -1,5 +1,6 @@
 # NotificationCenterExample
 C# NotificationCenter
+VS C# 消息通知中心，实现在代码的任何地方向窗体发消息，零耦合，调用简单，具体看源码
 
 form1接收消息：
 
