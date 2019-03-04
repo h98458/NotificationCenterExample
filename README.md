@@ -31,7 +31,7 @@ form1接收消息：
             observer = new DelegateObserver();
             observer.notificationDelegate = receveNotification;
 
-            //接收数据上传通知
+            //接收通知
             NotificationCenter.GetInstance().addObserver(observer, NotificationDefine.LoginSucceedNotification);
             NotificationCenter.GetInstance().addObserver(observer, NotificationDefine.LoginFailNotification);
         }
