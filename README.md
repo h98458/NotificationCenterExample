@@ -4,6 +4,7 @@ C# NotificationCenter
 form1接收消息：
 
 //订阅和接收通知的派生类实例
+
         DelegateObserver observer;
 
         /// <summary>
