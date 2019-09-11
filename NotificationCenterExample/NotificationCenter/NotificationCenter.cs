@@ -11,7 +11,7 @@ namespace Notification
     /// hrg 2018-10-15
     /// 消息服务中心 实现了订阅和发送信息的业务接口 
     /// </summary> 
-    class NotificationCenter
+    class NotificationCenter: NotificationInterface
     {
         
         #region 单例

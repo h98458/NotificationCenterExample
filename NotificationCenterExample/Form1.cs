@@ -29,12 +29,12 @@ namespace NotificationCenterExample
             if (name.Equals(NotificationDefine.LoginSucceedNotification))
             {
                 //登录成功
-                MessageBox.Show("登录成功", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Form1收到登录成功通知", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else if (name.Equals(NotificationDefine.LoginFailNotification))
             {
                 //登录失败
-                MessageBox.Show("登录失败", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Form1收到登录失败通知", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -44,7 +44,7 @@ namespace NotificationCenterExample
             observer = new DelegateObserver();
             observer.notificationDelegate = receveNotification;
 
-            //接收数据上传通知
+            //接收通知
             NotificationCenter.GetInstance().addObserver(observer, NotificationDefine.LoginSucceedNotification);
             NotificationCenter.GetInstance().addObserver(observer, NotificationDefine.LoginFailNotification);
         }
