@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Notification
 {
     /// <summary> 
-    /// hrg 2018-10-15 
+    /// HuangRongGui 2020-10-15 
     /// 通知常量定义类 
     /// </summary>
     class NotificationDefine

@@ -20,12 +20,12 @@ namespace NotificationCenterExample
 
         private void button1_Click(object sender, EventArgs e)
         {
-            NotificationCenter.GetInstance().postNotificationName(NotificationDefine.LoginSucceedNotification);
+            NotificationCenter.GetInstance().postNotificationName(NotificationDefine.LoginSucceedNotification,"登录成功");
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            NotificationCenter.GetInstance().postNotificationName(NotificationDefine.LoginFailNotification);
+            NotificationCenter.GetInstance().postNotificationName(NotificationDefine.LoginFailNotification,"登录失败");
         }
     }
 }

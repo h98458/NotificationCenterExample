@@ -9,3 +9,14 @@ E:\code\NotificationCenterExample\NotificationCenterExample\bin\Debug\Notificati
 E:\code\NotificationCenterExample\NotificationCenterExample\obj\Debug\NotificationCenterExample.Form2.resources
 E:\code\NotificationCenterExample\NotificationCenterExample\obj\Debug\NotificationCenterExample.exe
 E:\code\NotificationCenterExample\NotificationCenterExample\obj\Debug\NotificationCenterExample.pdb
+F:\GitHub\NotificationCenterExample\NotificationCenterExample\obj\Debug\NotificationCenterExample.csprojAssemblyReference.cache
+F:\GitHub\NotificationCenterExample\NotificationCenterExample\obj\Debug\NotificationCenterExample.Form1.resources
+F:\GitHub\NotificationCenterExample\NotificationCenterExample\obj\Debug\NotificationCenterExample.Form2.resources
+F:\GitHub\NotificationCenterExample\NotificationCenterExample\obj\Debug\NotificationCenterExample.Properties.Resources.resources
+F:\GitHub\NotificationCenterExample\NotificationCenterExample\obj\Debug\NotificationCenterExample.csproj.GenerateResource.cache
+F:\GitHub\NotificationCenterExample\NotificationCenterExample\obj\Debug\NotificationCenterExample.csproj.CoreCompileInputs.cache
+F:\GitHub\NotificationCenterExample\NotificationCenterExample\obj\Debug\NotificationCenterExample.exe
+F:\GitHub\NotificationCenterExample\NotificationCenterExample\obj\Debug\NotificationCenterExample.pdb
+F:\GitHub\NotificationCenterExample\NotificationCenterExample\bin\Debug\NotificationCenterExample.exe.config
+F:\GitHub\NotificationCenterExample\NotificationCenterExample\bin\Debug\NotificationCenterExample.exe
+F:\GitHub\NotificationCenterExample\NotificationCenterExample\bin\Debug\NotificationCenterExample.pdb

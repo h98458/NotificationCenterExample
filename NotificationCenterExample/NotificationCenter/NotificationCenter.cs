@@ -8,12 +8,12 @@ using System.Collections;
 namespace Notification
 {
     /// <summary> 
-    /// hrg 2018-10-15
+    /// HuangRongGui 2020-10-15
     /// 消息服务中心 实现了订阅和发送信息的业务接口 
     /// </summary> 
-    class NotificationCenter: NotificationInterface
+    class NotificationCenter : NotificationInterface
     {
-        
+
         #region 单例
         // 定义一个静态变量来保存类的实例
         private static NotificationCenter uniqueInstance;
@@ -58,10 +58,12 @@ namespace Notification
         //保存订阅者的数组 
         private ArrayList observerList = new ArrayList();
 
-        /// <summary> 
-        /// 向通知中心订阅通知 
+        /// <summary>
+        /// 向通知中心订阅通知
         /// </summary>
-        public void addObserver(Observer observer,string name)
+        /// <param name="observer">订阅者</param>
+        /// <param name="name">消息名称</param>
+        public void addObserver(Observer observer, string name)
         {
             //判断相同对象实例是否已经订阅的通知
             foreach (Dictionary<string, Observer> dict in observerList)
@@ -73,21 +75,22 @@ namespace Notification
                     {
                         return;
                     }
-                    
+
                 }
-               
+
             }
             Dictionary<string, Observer> dis = new Dictionary<string, Observer>();
             dis.Add(name, observer);
             observerList.Add(dis);
         }
 
-        /// <summary> 
-        /// 取消订阅 
-        /// </summary> 
+        /// <summary>
+        /// 取消订阅
+        /// </summary>
+        /// <param name="observer">订阅者</param>
         public void removeObserver(Observer observer)
         {
-            for (int i= observerList.Count-1; i>=0;i--)
+            for (int i = observerList.Count - 1; i >= 0; i--)
             {
                 Dictionary<string, Observer> dict = (Dictionary<string, Observer>)observerList[i];
                 foreach (Observer item in dict.Values)
@@ -98,13 +101,15 @@ namespace Notification
                     }
                 }
             }
-            
+
         }
 
-        /// <summary> 
-        /// 给订阅人发通知 
+        /// <summary>
+        /// 给订阅人发通知
         /// </summary>
-        public void postNotificationName(string name)
+        /// <param name="name">消息名称</param>
+        /// <param name="anObject">消息参数</param>
+        public void postNotificationName(string name, Object anObject)
         {
             if (name.Equals(NotificationDefine.ShowWaitingNotification))
             {
@@ -114,13 +119,14 @@ namespace Notification
             {
                 systemIsBusy = false;
             }
-                for (int i = observerList.Count - 1; i >= 0; i--)
+
+            for (int i = 0; i < observerList.Count; i++)
             {
                 Dictionary<string, Observer> dict = (Dictionary<string, Observer>)observerList[i];
                 if (dict.ContainsKey(name))
                 {
                     Observer observer = dict[name];
-                    observer.receiveNotification(name);
+                    observer.receiveNotification(name, anObject);
                 }
             }
         }
